@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-09-01T20:41:31.736Z",
+  "results": {
+    "rules": {
+      "pass": 13,
+      "total": 13,
+      "fails": []
+    },
+    "repro": {
+      "pureOk": 6,
+      "samples": 6,
+      "sameRecord": 0,
+      "sameAudit": 0,
+      "sameSafety": 2,
+      "sameGates": 3,
+      "n": 3
+    },
+    "clarify": {
+      "customAlways": 16,
+      "noReask": 16,
+      "relevant": 16,
+      "terminates": 16,
+      "total": 16,
+      "avgQuestions": 8,
+      "naturalStops": 16,
+      "nearAvgQuestions": 2
+    },
+    "convergence": {
+      "n": 16,
+      "heuristic": 2,
+      "clarified": 11,
+      "partial": 13,
+      "oracle": 16,
+      "partial_questions_avg": 6.4,
+      "safety": {
+        "n": 6,
+        "heuristic": 1,
+        "clarified": 6,
+        "partial": 6,
+        "oracle": 6
+      }
+    },
+    "schema": {
+      "ok": 16,
+      "total": 16
+    }
+  },
+  "release_ok": true
+}
