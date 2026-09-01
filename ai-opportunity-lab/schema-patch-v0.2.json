@@ -1,0 +1,6 @@
+{
+  "_comment": "Minimal patch to audit-schema.json required by engine v0.2. Apply to properties.decision.properties.state.enum. INSUFFICIENT_INPUT is a seventh decision state: the engine declines to audit because the description does not identify a user, a workflow, or an outcome. Without it, the engine has to pick some other state for an unauditable input, which is exactly the behaviour that made v0.1 return a full roadmap for an empty string.",
+  "path": "properties.decision.properties.state.enum",
+  "operation": "append",
+  "value": "INSUFFICIENT_INPUT"
+}
